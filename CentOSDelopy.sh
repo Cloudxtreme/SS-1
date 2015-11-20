@@ -1,8 +1,8 @@
 #安装配置Shadowsocks
-apt-get update && upgrade
+yum update && upgrade
 mkdir SS
 cd SS
-apt-get install python-pip
+yum install python-setuptools && easy_install pip
 pip install shadowsocks
 wget https://raw.githubusercontent.com/PINK-FL0YD/SS/master/Config/shadowsocks.json 
 mv ./shadowsocks.json /etc/shadowsocks.json
