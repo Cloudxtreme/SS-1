@@ -1,0 +1,2 @@
+# SS
+Shadowsocks ClickOnce Deployment
